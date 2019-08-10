@@ -9,10 +9,15 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    var personen = [Persoon]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let p1 = Persoon(voornaam: "margot", naam: "robbie", foto: "MargotRobbie", straat: "Meirstraat 24", huisnummer:"12", postcode:"5000", gemeente:"Anderlecht", telefoonnummer: "0488.870.452", coordinaat1:51.219448, coordinaat2:4.402464)
+        personen.append(p1)
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -21,26 +26,28 @@ class TableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return personen.count
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        // Configure the cell...
-
+        cell.textLabel?.text = personen[indexPath.row].voornaam.capitalized
+        cell.detailTextLabel?.text = personen[indexPath.row].naam.capitalized
+        
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -77,7 +84,6 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -85,6 +91,5 @@ class TableViewController: UITableViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
-    */
 
 }
