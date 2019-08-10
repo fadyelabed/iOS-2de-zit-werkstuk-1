@@ -45,8 +45,8 @@
                                 <color key="textColor" red="0.00012962514299999999" green="0.47818720339999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yho-Gy-wfT">
-                                <rect key="frame" x="20" y="403" width="53" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Straat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yho-Gy-wfT">
+                                <rect key="frame" x="20" y="403" width="55" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -266,10 +266,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTd-Op-Fpj">
+                                <rect key="frame" x="324" y="44" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Annuleren"/>
+                                <connections>
+                                    <segue destination="07f-dh-hm0" kind="presentation" id="WaF-7W-mLk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3Nu-Lb-8nA"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1a-yc-L3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -278,7 +288,7 @@
         <!--Lijst-->
         <scene sceneID="wAC-Tn-KHu">
             <objects>
-                <tableViewController id="clz-Lt-dQe" sceneMemberID="viewController">
+                <tableViewController id="clz-Lt-dQe" customClass="TableViewController" customModule="Werkstuk1Augustus" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Mc9-i4-bvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -355,4 +365,7 @@
         <image name="List__black" width="21" height="12.666666984558105"/>
         <image name="Location__black" width="15.666666984558105" height="17.333333969116211"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="WaF-7W-mLk"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -15,6 +15,8 @@
 		3F73D03822FC7BFF00C85CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F73D03622FC7BFF00C85CCF /* LaunchScreen.storyboard */; };
 		3F73D04322FC7BFF00C85CCF /* Werkstuk1AugustusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73D04222FC7BFF00C85CCF /* Werkstuk1AugustusTests.swift */; };
 		3F73D04E22FC7BFF00C85CCF /* Werkstuk1AugustusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73D04D22FC7BFF00C85CCF /* Werkstuk1AugustusUITests.swift */; };
+		3F935AB822FDBA7D000D728D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F935AB722FDBA7D000D728D /* TableViewController.swift */; };
+		3F935ABA22FF0982000D728D /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F935AB922FF0982000D728D /* Persoon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3F73D04922FC7BFF00C85CCF /* Werkstuk1AugustusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werkstuk1AugustusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F73D04D22FC7BFF00C85CCF /* Werkstuk1AugustusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk1AugustusUITests.swift; sourceTree = "<group>"; };
 		3F73D04F22FC7BFF00C85CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F935AB722FDBA7D000D728D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3F935AB922FF0982000D728D /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		3F73D02922FC7BFE00C85CCF /* Werkstuk1Augustus */ = {
 			isa = PBXGroup;
 			children = (
+				3F935AB722FDBA7D000D728D /* TableViewController.swift */,
+				3F935AB922FF0982000D728D /* Persoon.swift */,
 				3F73D02A22FC7BFE00C85CCF /* AppDelegate.swift */,
 				3F73D02C22FC7BFE00C85CCF /* ViewController.swift */,
 				3F73D02E22FC7BFE00C85CCF /* Main.storyboard */,
@@ -261,7 +267,9 @@
 			files = (
 				3F73D02D22FC7BFE00C85CCF /* ViewController.swift in Sources */,
 				3F73D03322FC7BFE00C85CCF /* Werkstuk1Augustus.xcdatamodeld in Sources */,
+				3F935ABA22FF0982000D728D /* Persoon.swift in Sources */,
 				3F73D02B22FC7BFE00C85CCF /* AppDelegate.swift in Sources */,
+				3F935AB822FDBA7D000D728D /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
