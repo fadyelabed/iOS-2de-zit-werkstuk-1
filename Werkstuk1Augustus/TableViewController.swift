@@ -18,6 +18,8 @@ class TableViewController: UITableViewController {
         let p1 = Persoon(voornaam: "rob", naam: "verstegen", foto: "rob", straat: "Meirstraat 24", huisnummer:"12", postcode:"5000", gemeente:"Anderlecht", telefoonnummer: "0488.870.452", coordinaat1:51.219448, coordinaat2:4.402464)
         personen.append(p1)
         
+        let p2 = Persoon(voornaam: "link", naam: "verstegen", foto: "link", straat: "Meirstraat 24", huisnummer:"12", postcode:"5000", gemeente:"Anderlecht", telefoonnummer: "0488.870.452", coordinaat1:51.219448, coordinaat2:4.402464)
+        personen.append(p2)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -53,13 +55,13 @@ class TableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "Detail View Controller"{
+        if segue.identifier == "detail"{
             let vc = segue.destination as! DetailViewController
             let indexPath = self.tableView.indexPathForSelectedRow
-            
             vc.persoon = personen[(indexPath?.row)!]
         }
     }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
