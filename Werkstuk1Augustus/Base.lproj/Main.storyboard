@@ -158,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="-1096" y="246"/>
         </scene>
-        <!--View Controller-->
+        <!--Toevoegen View Controller-->
         <scene sceneID="pjp-D4-a25">
             <objects>
-                <viewController id="bJU-FT-XAy" sceneMemberID="viewController">
+                <viewController id="bJU-FT-XAy" customClass="ToevoegenViewController" customModule="Werkstuk1Augustus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gnd-0I-Wsj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,6 +290,17 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btnSubmit" destination="und-4Z-v8t" id="H5Z-K8-CE8"/>
+                        <outlet property="txtAchternaam" destination="M8L-DI-JyT" id="0AV-jO-nvN"/>
+                        <outlet property="txtGemeente" destination="Jwa-BI-dlC" id="LSJ-aY-mS2"/>
+                        <outlet property="txtHuisnummer" destination="OWc-B2-mf0" id="a5H-Ik-WTQ"/>
+                        <outlet property="txtPostcode" destination="Iru-8r-2et" id="hyc-dW-aSa"/>
+                        <outlet property="txtStraat" destination="tOD-GN-IrE" id="mXm-jn-iVJ"/>
+                        <outlet property="txtTelefoonnummer" destination="0TI-Uh-y3X" id="80X-ue-mkN"/>
+                        <outlet property="txtVoornaam" destination="g8a-qg-awM" id="5Vs-d0-E0j"/>
+                        <segue destination="clz-Lt-dQe" kind="presentation" identifier="naarTable" id="STh-qh-kx0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1a-yc-L3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -379,4 +390,7 @@
         <image name="List__black" width="21" height="12.666666984558105"/>
         <image name="Location__black" width="15.666666984558105" height="17.333333969116211"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="STh-qh-kx0"/>
+    </inferredMetricsTieBreakers>
 </document>

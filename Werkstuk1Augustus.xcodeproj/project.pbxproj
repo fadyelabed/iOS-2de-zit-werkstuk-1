@@ -17,6 +17,7 @@
 		3F935AB822FDBA7D000D728D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F935AB722FDBA7D000D728D /* TableViewController.swift */; };
 		3F935ABA22FF0982000D728D /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F935AB922FF0982000D728D /* Persoon.swift */; };
 		3F935ABE23017EE4000D728D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F935ABD23017EE4000D728D /* DetailViewController.swift */; };
+		3FA1C86E2303064300F77B57 /* ToevoegenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1C86D2303064300F77B57 /* ToevoegenViewController.swift */; };
 		3FDC9A992301B65E00EA68D5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDC9A982301B65E00EA68D5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		3F935AB722FDBA7D000D728D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3F935AB922FF0982000D728D /* Persoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 		3F935ABD23017EE4000D728D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
+		3FA1C86D2303064300F77B57 /* ToevoegenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToevoegenViewController.swift; sourceTree = "<group>"; };
 		3FDC9A982301B65E00EA68D5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				3F935AB922FF0982000D728D /* Persoon.swift */,
 				3F73D02A22FC7BFE00C85CCF /* AppDelegate.swift */,
 				3F73D02E22FC7BFE00C85CCF /* Main.storyboard */,
+				3FA1C86D2303064300F77B57 /* ToevoegenViewController.swift */,
 				3F73D03422FC7BFF00C85CCF /* Assets.xcassets */,
 				3F73D03622FC7BFF00C85CCF /* LaunchScreen.storyboard */,
 				3F73D03922FC7BFF00C85CCF /* Info.plist */,
@@ -285,6 +288,7 @@
 				3F73D03322FC7BFE00C85CCF /* Werkstuk1Augustus.xcdatamodeld in Sources */,
 				3F935ABA22FF0982000D728D /* Persoon.swift in Sources */,
 				3F935ABE23017EE4000D728D /* DetailViewController.swift in Sources */,
+				3FA1C86E2303064300F77B57 /* ToevoegenViewController.swift in Sources */,
 				3F73D02B22FC7BFE00C85CCF /* AppDelegate.swift in Sources */,
 				3F935AB822FDBA7D000D728D /* TableViewController.swift in Sources */,
 			);
