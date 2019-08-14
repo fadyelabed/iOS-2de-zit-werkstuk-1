@@ -18,7 +18,7 @@ class TableViewController: UITableViewController {
         let p1 = Persoon(voornaam: "rob", naam: "verstegen", foto: "rob", straat: "Meirstraat 24", huisnummer:"12", postcode:"5000", gemeente:"Anderlecht", telefoonnummer: "0488.870.452", coordinaat1:51.219448, coordinaat2:4.402464)
         personen.append(p1)
         
-        let p2 = Persoon(voornaam: "link", naam: "verstegen", foto: "link", straat: "Meirstraat 24", huisnummer:"12", postcode:"5000", gemeente:"Anderlecht", telefoonnummer: "0488.870.452", coordinaat1:51.219448, coordinaat2:4.402464)
+        let p2 = Persoon(voornaam: "link", naam: "verstegen", foto: "link", straat: "Meirstraat 24", huisnummer:"12", postcode:"5000", gemeente:"Anderlecht", telefoonnummer: "0488.870.452", coordinaat1:50.93069, coordinaat2:5.33248)
         personen.append(p2)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

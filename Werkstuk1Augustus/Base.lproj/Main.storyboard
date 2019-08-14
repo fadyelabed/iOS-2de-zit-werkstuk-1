@@ -120,7 +120,7 @@
         <!--Kaart-->
         <scene sceneID="0w2-nP-d5A">
             <objects>
-                <viewController id="WOD-Or-YHH" sceneMemberID="viewController">
+                <viewController id="WOD-Or-YHH" customClass="MapViewController" customModule="Werkstuk1Augustus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3ys-Jj-zAT" userLabel="Kaart">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,6 +135,9 @@
                         <viewLayoutGuide key="safeArea" id="KQ7-IJ-0O2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Kaart" image="Location__black" id="Q9J-0K-QNk"/>
+                    <connections>
+                        <outlet property="MapView" destination="9vK-eX-ymD" id="85V-dJ-dTY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iHX-re-h5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
